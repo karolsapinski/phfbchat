@@ -60,6 +60,7 @@ window.fbAsyncInit = window.fbAsyncInit || function() {
 <fscript id="facebook-jssdk" src="//connect.facebook.net/{$phfbchat_locale}/sdk/xfbml.customerchat.js"></fscript>
 <div class="fb-customerchat"
 page_id="{$phfbchat_page_id}"
+greeting_dialog_display="hide"
 {if $phfbchat_logged_in}
 logged_in_greeting="{$phfbchat_logged_in}"
 {/if}
